@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Change BG Color",
+  "version": "1.0",
+  "description": "A extension to change the background color of the active tab",
+
+
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "activeTab", "scripting"
+  ],
+
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+
+  "icons": {
+    "32": "favicon-3.png"
+  }
+
+
+  
+}
